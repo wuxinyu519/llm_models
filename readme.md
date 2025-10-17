@@ -46,14 +46,14 @@ bash ./sft_with_miniplm/run_tune_gemma1b.sh
 
 ## 🚀 Stage 2 — Reinforcement Learning with Human Feedback (RLHF / DPO)
 
-**Script:** `./rhlf/sft_with_miniplm.sh`  
+**Script:** `./rhlf/gemma1b_rhlf.sh`  
 **Dataset:** `./rhlf/data/anotator/dpo/`
 
 This stage performs alignment fine-tuning based on Direct Preference Optimization (DPO). It leverages human preference data to further align the model's behavior with human expectations after the SFT stage.
 
 **Usage:**
 ```bash
-bash ./rhlf/sft_with_miniplm.sh
+bash ./rhlf/gemma1b_rhlf.sh
 ```
 
 ---
