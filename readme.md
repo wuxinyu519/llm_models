@@ -11,7 +11,7 @@ Datasets are organized by pipeline stage: supervised fine-tuning (SFT), reinforc
 ├── rhlf/
 │   ├── data/                          
 │       └── anotator/                       
-│           └──dpo/                            # Stage 2: DPO / RLHF training data, gpt40-mini as judge │                                               to give reward from quality, diversity, and privacy.
+│           └──dpo/                            # Stage 2: DPO / RLHF training data, gpt40-mini as judge to give reward from quality, diversity, and privacy.
 │
 └── eval/
     └── infinite_bench/
