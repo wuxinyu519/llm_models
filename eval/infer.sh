@@ -27,7 +27,7 @@ nvidia-smi
 # #itpossible/TagGenerator(please use final_infer_tagrouter, others use final_infer.py) #../sft_with_miniplm/experiments/google_gemma-3-1b-it_20251013_012058/checkpoints/checkpoint-536/ ../rhlf/experiment/full_wdpo/20251013_113440/final
 python final_infer.py \
     --checkpoint_path ../rhlf/experiment/full_wdpo/20251013_113440/final \
-    --data_dir ./infinite_bench/routerbench_gpt_gt/cleaned_tags_jsonl/individual_files \
+    --data_dir ./infinite_bench/infinitebench_gpt_gt/cleaned_tags_jsonl/individual_files \
     --output_prefix ./infinite_bench/results \
     --batch_size 10 \
     --save_interval 50 \
