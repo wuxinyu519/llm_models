@@ -2,6 +2,16 @@ This repository organizes datasets used for **two-stage fine-tuning** and **fina
 
 Datasets are organized by pipeline stage: supervised fine-tuning (SFT), reinforcement learning with human feedback (RLHF/DPO), and final evaluation. See the directory layout below:
 
+---
+
+## 📦 Dataset Download
+
+**Google Drive Link:** [Download Dataset](https://drive.google.com/file/d/1r6K_gRFq91jZENvZRF18ktchk-MI-s9F/view?usp=sharing)
+
+Please download and extract the dataset before running the training scripts.
+
+---
+
 ```
 .
 ├── sft_with_miniplm/
